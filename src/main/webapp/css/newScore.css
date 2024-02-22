@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid #bfdfff;
+    color: #bfdfff;
+    text-align: center;
+    padding: 8px;
+}
+
+.award {
+    width: 20%;
+    background-color: #bfdfff;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:#003d57;
+    font-size:17px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+}
+
+.award:hover {
+    background-color: #003d57 !important;
+    color: #bfdfff  !important;
+}
+
+a[disabled="true"] {
+    pointer-events: none;
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666 !important;
+}
